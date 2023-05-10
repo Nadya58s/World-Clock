@@ -2,6 +2,7 @@
 body {
   background-color: #f9f7fe;
   font-family: sans-serif;
+  color: rgb(48, 27, 27);
 }
 
 h1 {
@@ -21,6 +22,8 @@ select {
   border-radius: 4px;
   font-size: 18px;
   padding: 10px;
+  background: #f9f7fe;
+  color: black;
 }
 
 a {
