@@ -25,6 +25,19 @@ function updateTime() {
       "h:mm:ss SSS[<small>]A[</small>]"
     );
   }
+
+  //Stockholm
+  let stockholmElement = document.querySelector("#stockholm");
+  if (stockholmElement) {
+    let stockholmDateElement = stockholmElement.querySelector(".date");
+    let stockholmTimeElement = stockholmElement.querySelector(".time");
+    let stockholmTime = moment().tz("Europe/Stockholm");
+
+    stockholmDateElement.innerHTML = stockholmTime.format("MMMM Do YYYY");
+    stockholmTimeElement.innerHTML = stockholmTime.format(
+      "h:mm:ss SSS[<small>]A[</small>]"
+    );
+  }
 }
 
 function updateCity(event) {
