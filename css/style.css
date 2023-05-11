@@ -4,7 +4,7 @@ body {
   font-family: sans-serif;
   color: rgba(28, 18, 18, 0.928);
   background: url(https://cdn.pixabay.com/photo/2016/04/02/14/46/world-1302934_1280.jpg);
-  background-position: justify;
+ background-size: cover;
   background-repeat: no-repeat;
 }
 
