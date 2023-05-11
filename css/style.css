@@ -25,13 +25,16 @@ select {
   width: 100%;
   border-radius: 4px;
   font-size: 18px;
+  font-weight: bold;
   padding: 10px;
-  background-color:#f9f9fb;
+  background-color:#E2EDF5;
+  color: #425477;
+  
 }
 
 a {
   text-decoration: none;
-  color: #425477;
+  color: #000;
 }
 .container {
   max-width: 650px;
@@ -71,6 +74,9 @@ a {
   vertical-align: middle;
   line-height: 48px;
   color: color: #425477;
+}
+.all-cities {
+  color:#000;
 }
 
 footer {
