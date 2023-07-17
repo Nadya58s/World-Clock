@@ -10,7 +10,7 @@ function updateTime() {
 
     losAngelesDateElement.innerHTML = losAngelesTime.format("MMMM Do YYYY");
     losAngelesTimeElement.innerHTML = losAngelesTime.format(
-      "h:mm:ss SSS[<small>]A[</small>]"
+      "h:mm:ss [<small>]A[</small>]"
     );
   }
   //Paris
@@ -22,7 +22,7 @@ function updateTime() {
 
     parisDateElement.innerHTML = parisTime.format("MMMM Do YYYY");
     parisTimeElement.innerHTML = parisTime.format(
-      "h:mm:ss SSS[<small>]A[</small>]"
+      "h:mm:ss [<small>]A[</small>]"
     );
   }
 
@@ -35,7 +35,7 @@ function updateTime() {
 
     stockholmDateElement.innerHTML = stockholmTime.format("MMMM Do YYYY");
     stockholmTimeElement.innerHTML = stockholmTime.format(
-      "h:mm:ss SSS[<small>]A[</small>]"
+      "h:mm:ss [<small>]A[</small>]"
     );
   }
 }
